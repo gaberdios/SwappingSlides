@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061DCECC1D6B8806004BAA76 /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCECB1D6B8806004BAA76 /* MusicListVC.swift */; };
+		061DCECE1D6B9234004BAA76 /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061DCECD1D6B9234004BAA76 /* PlaySongVC.swift */; };
 		06D504131D6B852D0027B2E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D504121D6B852D0027B2E7 /* AppDelegate.swift */; };
-		06D504151D6B852D0027B2E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D504141D6B852D0027B2E7 /* ViewController.swift */; };
+		06D504151D6B852D0027B2E7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D504141D6B852D0027B2E7 /* LoginVC.swift */; };
 		06D504181D6B852D0027B2E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D504161D6B852D0027B2E7 /* Main.storyboard */; };
 		06D5041A1D6B852D0027B2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D504191D6B852D0027B2E7 /* Assets.xcassets */; };
 		06D5041D1D6B852D0027B2E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D5041B1D6B852D0027B2E7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061DCECB1D6B8806004BAA76 /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		061DCECD1D6B9234004BAA76 /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
 		06D5040F1D6B852D0027B2E7 /* SwappingSlides.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingSlides.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D504121D6B852D0027B2E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06D504141D6B852D0027B2E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06D504141D6B852D0027B2E7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		06D504171D6B852D0027B2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D504191D6B852D0027B2E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06D5041C1D6B852D0027B2E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				06D504121D6B852D0027B2E7 /* AppDelegate.swift */,
-				06D504141D6B852D0027B2E7 /* ViewController.swift */,
+				06D504141D6B852D0027B2E7 /* LoginVC.swift */,
 				06D504161D6B852D0027B2E7 /* Main.storyboard */,
 				06D504191D6B852D0027B2E7 /* Assets.xcassets */,
 				06D5041B1D6B852D0027B2E7 /* LaunchScreen.storyboard */,
 				06D5041E1D6B852D0027B2E7 /* Info.plist */,
+				061DCECB1D6B8806004BAA76 /* MusicListVC.swift */,
+				061DCECD1D6B9234004BAA76 /* PlaySongVC.swift */,
 			);
 			path = SwappingSlides;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D504151D6B852D0027B2E7 /* ViewController.swift in Sources */,
+				061DCECC1D6B8806004BAA76 /* MusicListVC.swift in Sources */,
+				061DCECE1D6B9234004BAA76 /* PlaySongVC.swift in Sources */,
+				06D504151D6B852D0027B2E7 /* LoginVC.swift in Sources */,
 				06D504131D6B852D0027B2E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +310,7 @@
 				06D504231D6B852D0027B2E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
